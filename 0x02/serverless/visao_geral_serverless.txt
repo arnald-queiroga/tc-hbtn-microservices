@@ -1,0 +1,16 @@
+Podemos conceituar arquitetura serverless da seguinte forma: Basicamente se trata de um novo paradigma para disponibilizar o código na nuvem, que torna mais democrático o processode realização de deploy em uma nuvem, ou seja, ele executa o código sem se preocupar com servidores. Porém, podemos pensar que nesse contexto, a figura de um servidor é inexistente, e este é um pensamento equivocado. Pois, ao contrário disso, os servidores ainda existem sim, dentro do contexto da arquitetura serverless. O servidor neste caso existe, e ele é completamente gerenciado por um servidor. Podemos citar alguns exemplos de empresas que utilizam a arquitetura Servless, como o Spotify e o Youtube. 
+
+E agora falando sobre Function as a service (FaaS), ele é um serviço de cloud que oferece ao desenvolvedor, a possibilidade tanto de executar quanto gerenciar aplicações, sem a preocupação com manutenção da infra. Sua execução se dá em containers através de um modelo orientado a eventos. Essa é uma abordagem para implementar a computação serverless, no qual, em um determinado projeto por exemplo, a lógica e regra de negócio é escrita, e é executada em containers que são gerenciados por uma plataforma cloud. Citanto alguns exemplos de serviços, nós temos a Amazon's AWS Lambda e o Microsoft Azure Functions (open source).
+
+Um dos grandes benefícios de se utilizar a arquitetura Serverless:
+- é que o cliente do serviço paga somente pelo que usa.
+- Cada função pode ser criada em uma linguagem diferente.
+- Muitos eventos pré-configurados na Cloud ajudam a criar arquiteturas orientaras a eventos
+- Auto-escalável e altamente disponível
+
+Diferenciando Arquitetura Monolítica, Microsserviços e Serverless, podemos dizer que Microsserviços basicamente é uma forma ou abordagem de organizar uma aplicação, onde cada parte dela é um serviço independente, isto é, de baixo acoplamento. No qual, as aplicações são divididas em pequenos serviços que independem um do outro, e que se comunicam através de APIs muito bem definidas. E seus serviços pertencem a pequenas equipes autossuficientes. Diferentemente de aplicações monolíticas, aonde os serviços e códigos são concetrados em uma única aplicação, contendo vários bancos de dados, e possuindo um alto grau de acoplação. formando um grande pedaço de software. As devantagens de uma aplicação monolítica, por exemplo, é que conforme a aplicação vai crescendo, há uma possibilidade grande de se ter demoras em deploy, falhas que podem derrubar o sistema inteiro, e, não há a possibilidade de se usar mais de um tipo de tecnologia ou linguagem. Agora relativo ao Servless, ele herda os conceitos existentes de Microsserviços, e no entanto, utiliza de padrões de arquitetura de ponta, para alcançar o nível mínimo possível de hardware ocioso.
+
+Todos os conceitos anteriores escritos até aqui no momento, estão interligados com a ideia de computação em nuvem, que se baseia na disponibilidade  através da internet, e que fornece recursos e serviços conputacionais, como armazenamento e capacidade de processamento. O cliente paga somente o que utiliza do recurso, onde o tempo ocioso das máquinas é compartilhado entre os usuários. Essa também é uma das vantagens, pois os limites computacionais são determinados pelos custos.
+
+
+
